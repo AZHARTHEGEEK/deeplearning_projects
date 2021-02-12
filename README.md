@@ -1,2 +1,2 @@
-# deeplearning_projects
-deeplearning_projects
+# Deeplearning With Python Projects Practice Solutions 
+## Practice and Command
