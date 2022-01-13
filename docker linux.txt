@@ -1,0 +1,72 @@
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+service docker status
+servie docker start
+service docker status
+docker image pull ubuntu:latest
+docker image pull azharthegeek/<repository>:latest
+docker run -it azharthegeek/python
+
+docker image rm azharthegeek/python
+
+docker run -it aamirpinger/helloworld sh
+
+docker container ls
+docker ps
+
+ctrl pq
+docker exec -it (container name) sh
+
+docker container start
+docker container stop
+
+docker image pull aamirpinger/helloworld:latest
+
+docker container  run -d aamirpinger/flag sh
+
+docker container  run -d -p 5010:80 aamirpinger/helloworld
+
+docker container run --name=first-docker-cont -d -p 8500:80 first-docker-app
+
+docker build -t first-docker-app .
+ docker push azharthegeek/hello
+
+docker tag first-docker-app azharthegeek/first-docker-app
+
+docker history first-docker-app
+docker inspect first-docker-app
+resource management
+
+
+docker build -t first-docker-app .
+
+bind to save files
+
+docker-compose build 
+
+
+heroku
+
+heroku login
+heroku container:login
+heroku create
+heroku container:push web --app nameof containerservice
+heroku open --app appname
+
+
+process management
+Storage maintainan
+memory management
+security management
+
+why linux ?
+free and open source
+stabiity and relibility 
+security(kernal)
+flexcibility
+cost
+
+Linus Torvalds  17  sep 1991
+
+kernal (bridge)
+
+gnu c library
